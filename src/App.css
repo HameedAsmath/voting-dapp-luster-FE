@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+button{
+  padding: 10px 20px;
+  background-color: #56b5ec;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+}
+.connect{
+  font-size: 25px;
+  color: white;
+}
+.disconnect{
+  color: rgb(235, 130, 130);
+  border-color: rgb(228, 96, 96);
+  font-size: 25px;
+  background-color: #fff;
+}
+.container{
+  background-color: #fff;
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 8px 16px;
+}
+input{
+  padding: 10px 25px;
+  border-radius: 5px;
+  border-color: rgb(87, 170, 248);
+  margin-top: 15px;
+}
+.ml-3{
+  margin: 10px 20px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+}
+p{
+  color: rgb(119, 0, 255) ;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.card{
+  border: 2px solid #56b5ec;
+  padding: 15px;
+  padding-bottom: 0px;
+  border-radius: 5px;
+}
+.card-container{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px 20px;
+  width: 75%;
+  margin: 20px auto;
+}
+.card p{
+  font-weight: bold;
+  font-size: 30px;
+}
+.vote-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.img-con{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h3 span{
+  color: #56b5ec;
+}
+@media only screen and (max-width: 600px) {
+  .vote-container {
+    display: block;
+  }
+  .card{
+    margin-top: 20px;
+  }
+  .card-container{
+    display: block;
+  }
+}
